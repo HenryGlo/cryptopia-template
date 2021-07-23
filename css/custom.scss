@@ -136,6 +136,7 @@ body {
     }
 
     .about-section {
+        top: -300px;
         .about-section-content-container {
             padding: 160px 0;
             .about-section-content {
@@ -143,7 +144,7 @@ body {
                     margin-top: 50px;
                     justify-content: center !important;
                     h1 {
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                     }
                 }
                 .paragraph p {
@@ -151,6 +152,19 @@ body {
                     text-align: center;
                 }
             }
+        }
+    }
+
+    .hot-bid-section {
+        padding-top: 1000px;
+
+        .hot-bid-title h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .bid-card-container {
+            margin-top: 60px;
         }
     }
 }
