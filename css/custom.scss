@@ -1,0 +1,156 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.cryptopia-navbar {
+    background: #000;
+    .navbar-nav {
+        a {
+            color: #fff !important;
+            font-weight: 700;
+            &:hover {
+                color: red !important;
+                transition: all 0.8s ease-in-out;
+            }
+        }
+    }
+}
+
+.banner-section {
+    background-image: url('../img/Banner.png');
+    background-repeat: repeat-y;
+    background-size: 100% calc(100%);
+    min-height: 95vh;
+    .banner-title-container {
+        .banner-title-content {
+            h1 {
+                font-weight: 800;
+                font-size: 8rem;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.about-section {
+    width: 100%;
+    padding: 90px 0;
+    background-image: url('../img/BgBox1.png');
+    background-repeat: repeat-y;
+    background-size: 100% calc(100%);
+    position: absolute;
+    top: -100px;
+    .about-section-content-container {
+        padding: 50px 0;
+        .about-section-content {
+            margin-left: 5%;
+            .title h1{
+                text-transform: uppercase;
+                margin-bottom: 0%;
+                margin-right: 2%;
+                font-size: 4rem;
+                color: rgb(190, 190, 190);
+                font-weight: 700;
+            }
+            .paragraph p {
+                margin-top: 50px;
+                color: #fff;
+                font-weight: 700;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+.hot-bid-section {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 600px;
+    padding-bottom: 200px;
+    .hot-bid-title h1 {
+        font-weight: 600;
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    .hot-bid-container {
+        .bid-card-container {
+            .bid-image {
+                margin-bottom: 30px;
+            }
+            
+            .bid-information {
+                .title h2 {
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .price {
+                    border-radius: 5px;
+                    border: 3px solid red;
+                    color: red;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+                .type h2 {
+                    color: rgb(163, 140, 6);
+                    font-weight: 900;
+                    font-size: 1.5rem;
+                }
+                .quantity {
+                    font-weight: 700;
+                    font-size: 1.3rem;
+                    text-align: right;
+                }
+                .owners {
+                    position: relative;
+                }
+            }
+            .bid-extra {
+                margin-top: 30px;
+                padding-top: 2px;
+                border-top: 2px solid rgb(187, 187, 187);
+                .bid-extra-title {
+                    font-size: 1rem;
+                    img {
+                        margin-right: 5%;
+                    }
+                }
+                .new-bid-title {
+                    font-weight: 800;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-section {
+        .banner-title-container {
+            .banner-title-content {
+                h1 {
+                    font-size: 5rem !important;
+                }
+            }
+        }
+    }
+
+    .about-section {
+        .about-section-content-container {
+            padding: 160px 0;
+            .about-section-content {
+                .title  {
+                    margin-top: 50px;
+                    justify-content: center !important;
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+                }
+                .paragraph p {
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
