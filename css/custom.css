@@ -3,11 +3,11 @@ body {
 }
 .cryptopia-navbar {
     background: #000 !important;
+    border-bottom: 2px solid red;
 }
 .cryptopia-navbar .navbar-nav .nav-link{
     color: #fff !important;
 }
-
 
 .banner-section {
     background-image: url("../img/Droplist1.png");
@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     position: relative;
     z-index: -1;
+    margin-bottom: 700px;
 }
 
 .banner-title-cont {
@@ -38,6 +39,7 @@ body {
 .about-content {
     position: absolute;
     width: 100%;
+    padding: 100px 0;
     background-image: url("../img/BgBox1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,4 +58,22 @@ body {
 
 .about-content .content-icon {
     width: 80% !important;
+}
+
+.about-content .base-title {
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.about-content .base-paragraph {
+    color: rgb(207, 207, 207);
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.hot-bid-section {
+    min-height: 100vh;
+    background: #fff;
+    z-index: -3;
 }
