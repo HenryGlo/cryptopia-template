@@ -1,8 +1,16 @@
-body {
-    font-family: 'Raleway', sans-serif;
+@font-face {
+    font-family: Azonix;
+    src: url("../fonts/Azonix.otf") format("opentype");
 }
+
+@font-face {
+    font-family: SHeiti;
+    src: url("../fonts/STHeitiLight.ttc")  format("truetype"), url("../fonts/STHeitiMedium.ttc")  format("truetype");
+}
+
 .cryptopia-navbar {
     background: #000;
+    font-family: 'SHeiti', sans-serif;
     .navbar-nav {
         a {
             color: #fff !important;
@@ -23,8 +31,10 @@ body {
     .banner-title-container {
         .banner-title-content {
             h1 {
-                font-weight: 800;
+                font-family: 'Azonix', sans-serif;
+                font-weight: 600;
                 font-size: 8rem;
+                margin-top: 10px;
                 color: #fff;
             }
         }
@@ -44,14 +54,16 @@ body {
         .about-section-content {
             margin-left: 5%;
             .title h1{
+                font-family: 'Azonix', sans-serif;
                 text-transform: uppercase;
                 margin-bottom: 0%;
                 margin-right: 2%;
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: rgb(190, 190, 190);
-                font-weight: 700;
+                font-weight: 400;
             }
             .paragraph p {
+                font-family: 'SHeiti', sans-serif;
                 margin-top: 50px;
                 color: #fff;
                 font-weight: 700;
@@ -67,6 +79,7 @@ body {
     padding-top: 600px;
     padding-bottom: 200px;
     .hot-bid-title h1 {
+        font-family: 'Azonix', sans-serif;
         font-weight: 600;
         font-size: 4rem;
         text-transform: uppercase;
@@ -80,6 +93,7 @@ body {
             
             .bid-information {
                 .title h2 {
+                    font-family: 'Azonix', sans-serif;
                     font-weight: 600;
                     text-transform: uppercase;
                 }
@@ -92,6 +106,7 @@ body {
                     text-align: center;
                 }
                 .type h2 {
+                    font-family: 'Azonix', sans-serif;
                     color: rgb(163, 140, 6);
                     font-weight: 900;
                     font-size: 1.5rem;
@@ -106,16 +121,21 @@ body {
                 }
             }
             .bid-extra {
-                margin-top: 30px;
+                margin-top: 20px;
                 padding-top: 2px;
-                border-top: 2px solid rgb(187, 187, 187);
+                width: 100%;
+                border-top: 2px solid rgb(209, 209, 209);
                 .bid-extra-title {
                     font-size: 1rem;
+                    margin-bottom: 0;
+                    margin-left: 5%;
+                    font-family: 'SHeiti', sans-serif;
                     img {
                         margin-right: 5%;
                     }
                 }
                 .new-bid-title {
+                    font-family: 'SHeiti', sans-serif;
                     font-weight: 800;
                     text-align: right;
                 }
