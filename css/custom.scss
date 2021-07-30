@@ -144,6 +144,27 @@
     }
 }
 
+.advice-1-section {
+    padding: 170px 0 ;
+    background-image: url('../img/BgBox2.png');
+    background-repeat: repeat-y;
+    background-size: 100% calc(100%);
+
+    .section-title {
+        color: #fff;
+        font-family: 'Azonix', sans-serif;
+        font-size: 4rem;
+        margin-top: 20px;
+    }
+
+    .section-paragraph {
+        font-family: 'SHeiti', sans-serif;
+        font-size: 1.3rem;
+        color: #fff;
+        font-weight: 800;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .banner-section {
         .banner-title-container {
