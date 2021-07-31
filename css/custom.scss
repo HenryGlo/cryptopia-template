@@ -224,6 +224,34 @@
     }
 }
 
+.drops-section {
+    margin-top: 100px;
+    .dropped-bid-container {
+        position: relative;
+        background: #000;
+        height: 100%;
+        font-family: 'Azonix', sans-serif;
+        .next-dropped-bid {
+            color: red;
+            font-weight: 800;
+            font-size: 1.7rem;
+            width: 100%;
+            top: 0px;
+            text-align: center;
+        }
+        .dropped-bid-information {
+            position: absolute;
+            text-align: right;
+            padding: 0 5%;
+            font-size: 3rem;
+            color: #fff;
+            font-weight: 800;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .banner-section {
         .banner-title-container {
